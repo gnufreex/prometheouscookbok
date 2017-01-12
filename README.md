@@ -8,8 +8,8 @@ This cookbook installs the [Prometheus][] monitoring system and time-series data
 
 Requirements
 ------------
-- Chef 11 or higher
-- Ruby 1.9.3 or higher
+- Chef 12.1 or higher
+- Ruby 1.9.3 or higher (ruby-dev package on Ubuntu also needed)
 
 Platform
 --------
@@ -19,7 +19,8 @@ Tested on
 * Ubuntu 12.04
 * Debian 7.7
 * Centos 6.6
-* Centos 7.0
+* Centos 7.1
+* Centos 7.2
 
 Attributes
 ----------
